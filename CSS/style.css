@@ -1,0 +1,54 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: darkgray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+footer{
+    background-color: black;
+    max-width: 100%;
+    padding-bottom:1%;
+    position:fixed;
+    left:0;
+    right: 0;
+    bottom:0;
+}
+main{
+    margin:0;
+    padding:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 37em; /* dit met flex doen, is niet goed */
+}
+canvas{
+    top:0; 
+    display: none;
+}
+#zoomValue, #zoom{
+    float: right;
+    margin-right:1%;
+}
+ul li{
+    text-decoration:none;
+    list-style-type: none;
+    float:left;
+    width: 33%;
+   
+}
+ul{
+    margin-left:2%;
+    padding-left:0;
+}
+button{
+    background-color: black;
+    color:white;
+    border:none;
+}
+#openPDF{
+    font-size: 1em;
+}
+.pagination{
+    text-align: center;
+}
